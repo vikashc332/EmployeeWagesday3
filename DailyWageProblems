@@ -1,0 +1,34 @@
+package wagebuilder;
+import java.util.*;
+public class Employeewagebulideruc1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    
+		int is=1;
+		double emp=Math.floor(Math.random()*10)%2;
+		if(emp==is) {
+			System.out.println("Employee is Present");
+			}else {
+				System.out.println("Employee is Not Present");
+			}
+		}
+}
+
+		  //Problem No-4
+		   int wageperhour=20;
+		   int fulldayhour=8;
+		   int dailywage=20*8;
+		   int parttimewage=8*20;
+		   System.out.println(dailywage + parttimewage);
+	}
+	
+}
+
+	//Assume the number of days in a month is 20
+		int numOfdays=20;
+		   int fulldayhour=8;
+		   int monthlywage=20*8*20;
+		   System.out.println(monthlywage);
+	}	
+}
